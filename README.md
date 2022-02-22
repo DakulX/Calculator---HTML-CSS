@@ -1,4 +1,6 @@
 # Calculator---HTML-CSS
+![Calculator](https://user-images.githubusercontent.com/97840606/155166855-57103cfd-64cb-49e3-a7b5-8bd551e5f50a.png)
+
 Online calculator made with HTML &amp; CSS.
 The code starts with a tag.
 The form has an id of "form1" and the action is set to calculator.html.
