@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding:0;
+    line-height: 1;
+    background:linear-gradient(to left,#08f069,#19df72);
+    font-family: sans-serif;
+}
+
+.cal{
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transition:0.25px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    cursor:pointer;
+}
+#zero{
+
+height: 70;
+width: 150;
+font-size: 40;
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+#display{
+    
+    border:none;
+    background: white;
+    border-radius: 10px;
+    width: 300;
+    font-size: 40;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 70;
+    margin: auto;
+    border:2px solid white(5, 218, 255, 0.726);
+    color: black;
+ 
+}
+.button{
+    width:70;
+    height: 70;
+    padding-top: -1;
+    font-size: 40;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    border:0;
+    border-radius: 10px;
+    margin: 1.5;
+    transition:0.25px;
+    cursor:pointer;
+    
+}
+
+.operator{
+    width: 70;
+    height: 70;
+    padding-top: -1;
+    font-size: 40;
+    text-align: center;
+    color: black;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    border:0;
+    border-radius: 10px;
+    margin: 1.5;
+    transition:0.25px;
+    cursor:pointer;
+}
